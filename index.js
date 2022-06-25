@@ -6,7 +6,7 @@ let result;
 
 if (isNaN(num1) || isNaN(num2)) {
  alert('Error! Please refresh the page and input numbers in the required boxes.');
- else if (operator === '+') {
+} else if (operator === '+') {
     result = num1 + num2;
 } else if (operator === '-') {
     result = num1 - num2;
